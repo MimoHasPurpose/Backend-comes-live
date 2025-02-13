@@ -3,6 +3,11 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 
+const apidata={
+    "name":"Sanjay Singh",
+    "interst":"coding"
+}
+
 
 
 app.get('/', (req, res) => {
@@ -13,8 +18,8 @@ app.get('/', (req, res) => {
 app.get('/tweet', (req, res) => {
     res.send('Hello World!')
   })
-app.get('/chai',(req,res)=>{
-    res.send('<h2>chai or code</h2>')
+app.get('/apidata',(req,res)=>{
+    res.json(apidata)
 })
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${process.env.PORT}`)
