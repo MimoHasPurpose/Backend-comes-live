@@ -56,3 +56,17 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Sanjay Singh - [sanjaygurjar741@gmail.com](mailto:your_email@example.com)
 
 Project Link: [https://github.com/Sanj-bot/Backend-comes-live](https://github.com/Sanj-bot/Backend-comes-live)
+
+##### Backend best practices:
+
+- Choose a coding style and stick to it
+
+- Use version control and branching
+
+- Write tests and run them regularly
+
+- Refactor your code and remove dead code
+
+- Document your code and API
+
+- Conduct code reviews and get feedback 
