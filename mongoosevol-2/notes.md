@@ -19,6 +19,7 @@ terminologies -collection, documents,schemas,keys,models
       sudo apt-get install -y mongodb-org
       sudo systemctl start mongod.service
       sudo systemctl start mongodb
+      sudo systemctl unmask mongod
       sudo systemctl daemon-reload
       mongosh
      ```
