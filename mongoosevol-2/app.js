@@ -1,7 +1,7 @@
-mconst express=require('express');
+const express=require('express');
 const app=express();
 
-const userModel=require('../mongoosevol-2/usermodel')
+const userModel=require('E:/Github/Backend-comes-live/mongoosevol-2/usermodel.js')
 app.get('/',(req,res)=>{
     res.send('hey!')
 })
