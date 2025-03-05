@@ -26,7 +26,7 @@ app.get('/update',async(req,res)=>{
 app.get('/read',async(req,res)=>{
     // let users=await userModel.find();
     // let user2=await userModel.find({username:"sanjay"});
-    let user3=await userModel.find({name:"sanjay"});
+    let user3=await userModel.find();
     res.send(user3);
     
 })
