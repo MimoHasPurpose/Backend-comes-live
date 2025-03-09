@@ -17,7 +17,17 @@ app.get("/password",function(req,res){
              console.log('Hash is password'+a);
             // console.log(hash); // password.
         });
+        bcrypt.compare("mimo", a, function(err, result) {
+            // result == true
+            console.log("mimo "+result);
+        });
+        bcrypt.compare("mimi", a, function(err, result) {
+            // result == true
+            console.log("mimi "+result);
+        });
+
     });
+
     res.send(`password ${a}`);
 })
 
