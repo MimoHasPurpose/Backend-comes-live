@@ -70,3 +70,14 @@ Project Link: [https://github.com/Sanj-bot/Backend-comes-live](https://github.co
 - Document your code and API
 
 - Conduct code reviews and get feedback 
+
+
+#### Topics Covered:
+1. Authentication-Authorization
+2. CRUD
+3. Dynamic routing
+4. form handling
+5. mongoose
+6. Node.js
+7. Routing
+8. Express.js
